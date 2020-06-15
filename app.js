@@ -523,11 +523,10 @@ document.write( subject3 + "   		" + total + "  	    " + subject3ob + "      " +
 
 
 
-/*------------------------------------------------------Chapter-9-11 Completed Here----------------------------------------------------------------------------*/
+/*------------------------------------------------------Chapter-9-11 Started Here----------------------------------------------------------------------------*/
 
 
-
-/* Task-1 */
+/*---------------------------------------------------------------- Task-1 ------------------------------------------------------------------------------------*/
 
 var city = prompt("Enter Your city");
 
@@ -535,7 +534,7 @@ if (city === "Karachi") {
 	alert("Welcome to city of lights");
 }
 
-/* Task-2 */
+/*----------------------------------------------------------------- Task-2 ----------------------------------------------------------------------------------*/
 
 var gender = prompt("Enter Your Gender");
 
@@ -548,7 +547,7 @@ else {
 	alert("Good Morning Ma'am");
 }
 
-/* Task-3 */
+/*------------------------------------------------------------------- Task-3 -------------------------------------------------------------------------------*/
 
 var color = prompt("Please Enter Your Color");
 
@@ -573,7 +572,7 @@ else {
 	alert("You have enter wrong color");
 }
 
-/*  Task-4 */
+/*---------------------------------------------------------------  Task-4 ----------------------------------------------------------------------------------*/
 
 var fuel = prompt("Enter  the fuel level");
 
@@ -584,7 +583,7 @@ else {
 	alert("No Need to refill");
 }
 
-/* Task-5 (a) */
+/*---------------------------------------------------------------- Task-5 (a)------------------------------------------------------------------------------ */
 
 var a = 4;
 if (++a === 5){
@@ -632,3 +631,295 @@ if("car" < "cat"){
 alert("car is smaller than cat");
 }
 
+/*--------------------------------------------------------Task-6---------------------------------------------------------------------------------------*/
+
+var sub1 = prompt("Enter You Marks");
+var sub2 = prompt("Enter You Marks");
+var sub3 = prompt("Enter You Marks");
+
+document.write("<h2>Marks Sheet</h2> <br> <br>");
+
+var totalMarks = 300;
+
+document.write("Total Marks : " + totalMarks + "<br>");
+
+var Marks = Number(sub1) + Number(sub2) + Number(sub3);
+
+document.write("Marks obtained : " + Marks + "<br>")
+
+var percentage = Math.floor((Marks/totalMarks) * 100);
+
+document.write("Percentage :" + percentage + "%" + "<br>");
+
+if (percentage >= 80) {
+
+	document.write("Grade: A-one" + "<br>" + "Remarks : Excellent" + "<br>");
+}
+
+else if (percentage >= 70) {
+
+	document.write("Grade: A" + "<br>" + "Remarks : Good" + "<br>");
+}
+
+else if (percentage >= 60) {
+
+	document.write("Grade: B" + "<br>" + "Remarks : You Need to improve" + "<br>");
+}
+
+else {
+
+	document.write("Grade: Fail" + "<br>" + "Remarks : Sorry" + "<br>");
+}
+
+/*-----------------------------------------------Task-7-------------------------------------------------------------------------------*/
+
+var calc = Math.floor((Math.random() * 10) + 1);
+
+var x = prompt("Please Enter the value");
+
+if ( calc === Number(x)) {
+
+	alert("Bingo! Correct answer");
+}
+
+else if ( calc > Number(x)) {
+
+	alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+
+}
+
+
+
+else if ( calc < Number(x)) {
+
+	alert("OOPS SORRY!! TRY A Greater NUMBER");
+}
+
+else {
+
+	alert("OOPS You have Entered the wrong valued");
+}
+
+/*-------------------------------------------Task-8 -----------------------------------------------------------------------------------*/
+
+var guess = prompt("Please Enter the value");
+
+if (Number(guess)%3 === 0) {
+	alert("Number is divisiable by 3");
+}
+
+else {
+	alert("Number is not divisiable by 3");
+}
+
+
+/*----------------------------------------------Task-9---------------------------------------------------------------------------------*/
+
+var guess = prompt("Please Enter the value");
+
+if (Number(guess)%2 === 0) {
+	alert("Number is Even");
+}
+
+else {
+	alert("Number is odd");
+}
+
+
+/* ------------------------------------------Task-10 -----------------------------------------------------------------------------------*/
+
+var T = prompt("Please Enter the Temprature");
+
+if (Number(T) > 40) {
+	alert("It is too hot outside.”");
+}
+
+else if (Number(T) > 30) {
+	alert("The Weather today is Normal.");
+}
+
+else if (Number(T) > 20) {
+	alert("Today Weather is Cool.");
+}
+
+else if (Number(T) > 10) {
+	alert("OMG! Today weather is so Cool.");
+}
+
+else {
+	alert("Its freezing Outside.");
+}
+
+
+/* ----------------------------------------Task-11 ------------------------------------------------------------------------------------*/
+
+var firstNumber = prompt("Enter First Number");
+var secondNumber = prompt("Enter second Number");
+var op = prompt("select you operator");
+var result;
+
+
+if (op == "+") {
+
+	result = Number(firstNumber) + Number(secondNumber);
+
+	alert(result);
+}
+
+else if (op == "-") {
+
+		result = Number(firstNumber) - Number(secondNumber);
+
+		alert(result);
+}
+
+else if (op == "/" ) {
+
+		result = Number(firstNumber) / Number(secondNumber);
+
+		alert(result);
+}
+
+else if (op == "*") {
+
+		result = Number(firstNumber) * Number(secondNumber);
+
+		alert(result);
+}
+
+else if (op == "%") {
+
+		result = Number(firstNumber) % Number(secondNumber);
+
+		alert(result);
+}
+
+else {
+	alert("Thanks")
+}
+
+/*------------------------------------------------------Chapter-9-11 Completed Here----------------------------------------------------------------------------*/
+
+/*------------------------------------------------------Chapter-12-13 Started Here----------------------------------------------------------------------------*/
+
+var ch =  prompt("Enter the charater");
+
+if (ch >= "A" && ch <= "Z")  {
+	alert("Upper Case Letter");
+}
+
+else if ( ch >= "a" && ch <= "z") {
+	alert("Lower Case Letter");
+}
+
+else
+
+alert("It is a number");
+
+/* ---------------------------------------------------------- Task-2 ---------------------------------------*/
+
+var x = prompt("Enter First Value");
+
+var y = prompt("Enter Second Value");
+
+if ( (Number(x) > Number(y)) && (Number(x) != Number(y)) ) {
+	alert(x);
+}
+
+else if ( (Number(y) > Number(x)) && (Number(y) != Number(x)) ) {
+	alert(y);
+}
+
+else {
+	alert("Both Values are equal");
+}
+
+/* ------------------------------------------Task-3 ---------------------------------------------------------*/
+
+var z = prompt("Please Enter the Value"); 
+
+if ( (Number(z) >= 0 )  &&  (Number(z) != 0 ) ) {
+
+	alert("Number is Positive");
+}
+
+else if ( (Number(z) <= 0 )  &&  (Number(z) != 0 ) ) {
+
+	alert("Number is Negitive");
+}
+
+else {
+	alert("Number is Zero");
+}
+
+/* -------------------------------------Task-4---------------------------------------------------------------*/
+var z = prompt("Enter any Word");
+
+if (z === "a" || z === "e" || z === "i" || z === "o" || z === "u")  {
+	alert("You have Enter Small Vovle Word")
+}
+
+else if (z === "A" || z === "E" || z === "I" || z === "O" || z === "U") {
+
+	alert("You have Enter Capital Vovle Word")
+}
+ 
+else {
+	alert("False");
+}
+
+
+/* -------------------------------------Task-5---------------------------------------------------------------*/
+
+var password = "khan@123";
+
+var pass = prompt("Enter Your Password");
+
+if (pass === password) {
+	alert("Correct! The password you entered matches the original password.");
+}
+
+else {
+	alert("Incorrect password");
+}
+
+/* ----------------------------------Task-6------------------------------------------*/
+
+var greeting; 
+
+var hour = 13;
+
+if (hour < 18) {
+
+ 	alert(greeting = "Good day");
+ }
+
+ else {
+
+ 	alert(greeting = "Good evening");
+
+}
+
+/* -------------------------------Task-7 ---------------------------------------------*/
+
+var time = prompt("Enter Your time");
+
+
+if (time >= "0000" && time < "1200" ) {
+	alert("Good Morning");
+}
+
+else if (time >= "1200" && time < "1700" ) {
+	alert("Good Afternoon");
+}
+
+else if (time >= "1700" && time < "2100" ) {
+	alert("Good Evening");
+}
+
+else if (time >= "2100" && time <= "2359" ) {
+	alert("Good Night");
+}
+
+
+/*------------------------------------------------------Chapter-12-13 Started Here----------------------------------------------------------------------------*/
