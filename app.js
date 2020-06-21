@@ -160,7 +160,7 @@ var name, _price, last_year_student, user1, $ali;
 
 /* Non-Leagal Variables */
 
-var name, last year, user, ali, ali khan;
+ /*1name, last year, !user, &ali, ali khan*/;
 
 
 /* Task-3 */
@@ -922,4 +922,453 @@ else if (time >= "2100" && time <= "2359" ) {
 }
 
 
-/*------------------------------------------------------Chapter-12-13 Started Here----------------------------------------------------------------------------*/
+/*------------------------------------------------------Chapter-12-13 Ends Here----------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------Chapter-14-16 Started Here----------------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------Task-1-----------------------------------------------------------------------------------------------*/
+
+var arrayA = []
+var arrayB = new Array();
+
+/* ----------------------------------------------------Task-2-----------------------------------------------------------------------------------------------*/
+
+var objectA = {}
+var objectB = new Object();
+
+/* ----------------------------------------------------Task-3-----------------------------------------------------------------------------------------------*/
+
+var arr = ["ali", "khan"];
+
+/* ----------------------------------------------------Task-4-----------------------------------------------------------------------------------------------*/
+
+var arr = [1, 2, 3];
+
+/* ----------------------------------------------------Task-5-----------------------------------------------------------------------------------------------*/
+
+var boolean = [0, 1];
+
+/* ----------------------------------------------------Task-6-----------------------------------------------------------------------------------------------*/
+var khan = "I love you";
+var mix = [1, "ali", khan];
+
+/* ----------------------------------------------------Task-7-----------------------------------------------------------------------------------------------*/
+
+var education = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
+document.write("<h3> Qualification: </h3> <br>");
+document.write( "1)" + education[0] + "<br>");
+document.write( "2)" + education[1] + "<br>");
+document.write( "3)" + education[2] + "<br>");
+document.write( "4)" + education[3] + "<br>");
+document.write( "5)" + education[4] + "<br>");
+document.write( "6)" + education[5] + "<br>");
+document.write( "7)" + education[6] + "<br>");
+document.write( "8)" + education[7] + "<br>");
+
+/* ----------------------------------------------------Task-8-----------------------------------------------------------------------------------------------*/
+
+var names = ["Michael", "John", "Tony"];
+var marks = [320, 230, 480, 64, 46, 96];
+
+
+
+document.write("<br>" + "Score of " + names[0] + " is " + marks[0] + "." + " Percentage: " + marks[3] + "%" + "<br>");
+document.write("Score of " + names[1] + " is " + marks[1] + "." + " Percentage: " + marks[4] + "%" + "<br>");
+document.write("Score of " + names[2] + " is " + marks[2] + "." + " Percentage: " + marks[5] + "%" + "<br>");
+
+
+/* ----------------------------------------------------Task-9-----------------------------------------------------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+/*------------------------Task-9(a)-----------------------------------------------------*/
+
+var color = prompt("Enter you favt Color ");
+
+colours.unshift(color);
+
+document.write("<br>" + colours + "<br>");
+
+/*------------------------Task-9(b)-----------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+var color = prompt("Enter you favt Color ");
+
+colours.push(color);
+
+document.write("<br>" + colours + "<br>");
+
+
+/*------------------------Task-9(c)-----------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+var color = prompt("Enter you first favt Color ");
+var color1 = prompt("Enter you second favt Color");
+var color2 = prompt("Enter you third favt Color");
+
+colours.unshift(color, color1, color2);
+document.write("<br>" + colours + "<br>");
+
+/*------------------------Task-9(d)-----------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+colours.shift("Black");
+
+document.write("<br>" + colours + "<br>");
+
+
+/*------------------------Task-9(e)-----------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+colours.pop("White");
+
+document.write("<br>" + colours + "<br>");
+
+/*------------------------Task-9(f)-----------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+var sp = prompt("Please Enter the Index");
+
+colours.splice(sp, 0, "Gray");
+
+document.write("<br>" + colours + "<br>");
+
+/*------------------------Task-9(g)-----------------------------------------------------*/
+
+var colours = ["Black ", "Blue ", "Pink ", "Red ", "White "]
+
+document.write("<br>" + colours);
+
+var sp = prompt("Please Enter the Index");
+
+colours.splice(0, sp);
+
+document.write("<br>" + colours + "<br>");
+
+
+/*---------------------------------------------------------------------Task-9 Completed Here--------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------Task-10 Starts Here----------------------------------------------------------------*/
+
+
+var numbers = [320, 230, 480, 120]
+
+numbers.sort();
+
+document.write("<br>" + numbers + "<br>");
+
+
+/*---------------------------------------------------------------------Task-10 Ends Here------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------Task-11 Starts Here----------------------------------------------------------------*/
+
+var cities = ["Karachi" , "Lahore", "Islamabad" , " Quetta", "Peshawar"]
+
+var cities1 = cities.slice(2,4);
+
+document.write("<br>" + cities1 + "<br>");
+
+/*---------------------------------------------------------------------Task-11 Ends Here------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------Task-12 Starts Here----------------------------------------------------------------*/
+
+var arr = [" This ", " is ", " my ", " cat "];
+
+var x = arr.join();
+
+ var y = arr.join(" ");
+
+document.write("<h5> Array: </h5>");
+document.write(x + "<br>");
+
+document.write("<h5> String: </h5>");
+document.write( y + "<br>");
+
+/*---------------------------------------------------------------------Task-12 Ends Here------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------Task-13 Starts Here----------------------------------------------------------------*/
+
+var devices = ["Keyborad", "Mouse", "Printer", "Monitor"]
+var x = devices.join();
+
+document.write("Devices:" + "<br>" + x + "<br>");
+
+var y = devices.shift(0);
+
+document.write("Output:" + "<br>" + y + "<br>");
+	
+y = devices.shift(1);
+
+document.write("Output:" + "<br>" + y + "<br>");
+
+y = devices.shift(2);
+
+document.write("Output:" + "<br>" + y + "<br>");
+
+y = devices.shift(3);
+
+document.write("Output:" + "<br>" + y + "<br>");
+	
+
+
+/*---------------------------------------------------------------------Task-13 Ends Here------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------Task-14 Starts Here------------------------------------------------------------------*/
+
+var devices = ["Keyborad", "Mouse", "Printer", "Monitor"]
+var x = devices.join();
+
+document.write("Devices:" + "<br>" + x + "<br>");
+
+var y = devices.pop(0);
+
+document.write("Output:" + "<br>" + y + "<br>");
+	
+y = devices.pop(1);
+
+document.write("Output:" + "<br>" + y + "<br>");
+
+y = devices.pop(2);
+
+document.write("Output:" + "<br>" + y + "<br>");
+
+y = devices.pop(3);
+
+document.write("Output:" + "<br>" + y + "<br>");
+
+
+
+/*---------------------------------------------------------------------Task-14 Ends Here------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------Task-15 Starts Here----------------------------------------------------------------*/
+
+var mobile = ["Apple" , "Samsung" , "Motrola" , "Nokia" , "Sony & Haier"]
+
+	document.write("<select>")
+
+		for (var i = 0; i <mobile.length; i++) {
+			document.write("<option>" + mobile[i] + "</option>")
+		}
+
+	document.write("</select>");
+
+
+/*---------------------------------------------------------------------Task-15 Ends Here------------------------------------------------------------------*/
+
+/*------------------------------------------------------Chapter-14-16 Started Here----------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------Chapter-17-20 Started Here----------------------------------------------------------------------------*/
+
+
+
+/* -------------------------------------------------Task-1 -------------------------------------------------*/
+
+
+var arr = [ [], [] ];
+
+
+/* -------------------------------------------------Task-2 -------------------------------------------------*/
+
+
+
+/* -------------------------------------------------Task-3 -------------------------------------------------*/
+
+
+var fullNames = [];
+
+for (var i = 1; i <= 10; i++) {
+
+	document.write(i + "<br>");
+
+	}
+
+
+/* -----------------Task-4-----------------------------------*/
+
+var tablenumbers = prompt("Enter the Table Number");
+
+var tablelengths  = prompt("Enter the Table Length");
+
+for (var i = 1; i <= tablelengths; i++ ) {
+
+	var result = tablenumbers * i;
+
+	document.write(" " + tablenumbers + " * " + i + " = ", + result + "<br>" );
+}
+
+/* ---------------Task-5------------------------------------*/
+
+var furits = ["apple", "banana", "mango", "orange", "strawberry"]
+
+for (var i = 0; i < furits.length; i++) {
+
+	document.write(furits[i] + "<br>");
+
+}
+
+for (var j = 0; j < furits.length; j++) {
+
+	document.write("Element at " + " index " + [j] + " is " + furits[j] + "<br>");
+
+}
+
+
+/* ---------------Task-6 (a)------------------------------------*/
+
+document.write("Counting:" + "<br>")
+
+for (var i = 1; i <= 15; i++) {
+
+	document.write("\n" +i + ",");
+}
+
+document.write("<br>")
+
+/* ---------------Task-6 (b)------------------------------------*/
+
+document.write("Reverse Counting:" + "<br>")
+
+for (var i = 10; i > 0 ; i--) {
+
+	document.write("\n" +i + ",");
+}
+
+document.write("<br>")
+
+/*------------------Task-6(c)-------------------------------------*/
+
+document.write("Even:" + "<br>")
+
+for (var i = 0 ; i <= 20 ; i++) {
+
+	if (i%2=== 0) {
+
+		document.write( i + ",")
+	}
+}
+
+document.write("<br>")
+
+/*------------------Task-6(d)-------------------------------------*/
+
+document.write("Odd:" + "<br>")
+
+for (var i = 1 ; i <= 20 ; i++) {
+
+	if (i%2=== 1) {
+
+		document.write( i + ",")
+	}
+}
+
+document.write("<br>")
+
+/*------------------Task-6(e)-------------------------------------*/
+
+document.write("Series:" + "<br>")
+
+var value1 = 2
+
+for (var i = 1 ; i <= 10 ; i++) {
+
+	var	result =  value1 * i;
+
+		document.write( result + "K" + ",")
+	
+}
+
+
+/*------------------Task-7-------------------------------------*/
+
+var arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+
+var search = prompt("Welcome to ABC bakery. What you want to order sir/ma'ma?");
+
+
+if (arr.indexOf(search) !== -1 ) {
+	alert(search + " is available at index " + [arr.indexOf(search)] + " in our bakery" )
+}
+else {
+	alert(search + " is not available")
+
+}
+
+/*-----------------Task-8------------------------------------*/
+
+var number_arr = [24, 53, 78, 91, 12];
+
+document.write( "<br>" + "Array Items: " + number_arr);
+
+var largest = number_arr[0];
+
+for (var i = 0; i < number_arr.length; i++) {
+
+    if (largest < number_arr[i] ) {
+
+        largest = number_arr[i];
+
+    }
+
+}
+
+document.write("<br>" + "The largest Number is " + largest);
+
+
+/*-----------------Task-9------------------------------------*/
+
+var number1_arr = [24, 53, 78, 91, 12];
+
+document.write( "<br>" + "Array Items: " + number1_arr);
+
+var lowest = number1_arr[0];
+
+for (var i = 0; i < number1_arr.length; i++) {
+
+    if (lowest > number1_arr[i] ) {
+
+        lowest = number1_arr[i];
+
+    }
+
+}
+
+document.write("<br>" + "The Lowesr Number is " + lowest);
+
+/*-----------------Task-10------------------------------------*/
+
+
+var mul = prompt("Please Enter the Value")
+
+document.write( "<br>");
+
+for (var i = 1 ; i <= 20 ; i++) {
+
+	var	result =  mul * i;
+
+		document.write("\n" + result )
+	
+}
